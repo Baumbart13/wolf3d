@@ -241,3 +241,8 @@ _deps
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+
+### User defined
+.idea/**/discord.xml
+.idea/**/.gitignore
+.idea/**/serialmonitor_settings.xml
