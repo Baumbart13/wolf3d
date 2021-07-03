@@ -19,13 +19,13 @@ namespace WOLF{
 		void ReadThis(void);
 
 #ifdef SPEAR
-#define STARTITEM newGame
+	#define STARTITEM newGame
 #else // SPEAR
-#ifdef GOODTIMES
-#define STARTITEM newGame
-#else // GOODTIMES
-#define STARTITEM readThis
-#endif // GOODTIMES
+	#ifdef GOODTIMES
+		#define STARTITEM newGame
+	#else // GOODTIMES
+		#define STARTITEM readThis
+	#endif // GOODTIMES
 #endif // SPEAR
 	}
 	
