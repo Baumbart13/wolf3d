@@ -1,2 +1,2 @@
 # wolf3d
-A 32bit C++ port of id-software's Wolfenstein 3D
+A 64-bit C++ port of id-software's Wolfenstein 3D (or at least aa attempt)
