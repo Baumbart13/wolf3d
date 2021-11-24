@@ -7,9 +7,10 @@
 
 //#include <dos.h> // can't find this file, because cygwin is used for compilation instead of borland
 #include "../missingIncludes/dos.h"
+#include "../baumbartWolfHelp/baumbartWolf_dataTypes.h" // included this file, since byte cannot be used nowadays properly
 
 #include <alloca.h>
-#include <ctype.h>
+#include <cctype>
 #include <cerrno>
 #include <fcntl.h>
 #include <io.h>
